@@ -1,0 +1,5 @@
+/target/
+/AllureReportsExample.iml
+/.idea/
+/allure-results/
+/Log4j/log4j-test-automation.log
