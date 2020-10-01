@@ -8,6 +8,10 @@ stages:
 #----------------------------------------------------
 sanityrun-dev:
   stage: run-e2e-tests
+  artifacts:
+    paths:
+      - /target/surefire-reports/*
+    when: always
   script:
     - mvn test
   tags:
