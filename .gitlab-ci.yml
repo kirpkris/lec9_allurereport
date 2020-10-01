@@ -10,7 +10,7 @@ sanityrun-dev:
   stage: run-e2e-tests
   artifacts:
     paths:
-      - /target/surefire-reports/*
+      - /builds/streLer/lec9_allure/target/surefire-reports/*
     when: always
   script:
     - mvn test
