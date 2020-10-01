@@ -11,4 +11,4 @@ sanityrun-dev:
   script:
     - mvn test
   tags:
-    - testDock
+    - uni
