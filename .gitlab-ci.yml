@@ -1,0 +1,14 @@
+image: selenium/standalone-chrome:85.0-chromedriver-85.0-20200921
+
+stages:
+  - run-e2e-tests
+
+#----------------------------------------------------
+# jobs to run
+#----------------------------------------------------
+sanityrun-dev:
+  stage: run-e2e-tests
+  script:
+    - mvn test
+  tags:
+    - testDock
