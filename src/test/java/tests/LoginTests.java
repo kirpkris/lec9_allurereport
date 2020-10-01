@@ -38,7 +38,7 @@ public class LoginTests extends BaseTest {
             .goToAuthPage()
             .goToLoginPage()
             .loginToApp("", "")
-            .verifyLoginUserName(invalidErrorMessageText);
+            .verifyLoginUserName(expectedErrorMessageText);
     }
 
 }
